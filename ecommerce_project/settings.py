@@ -31,7 +31,11 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-e^%c%h64(&zl8syl3#^
 DEBUG = False 
 
 # Add your specific Render URL and local addresses
-ALLOWED_HOSTS = ['ai-recommender-ecommerce.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'ai-recommender-ecommerce-w2n4.onrender.com', 
+    'localhost', 
+    '127.0.0.1'
+]
 
 # --- APPLICATION DEFINITION ---
 
